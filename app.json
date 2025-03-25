@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "hanabidex",
+    "name": "HanabiDex",
     "slug": "hanabidex",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,21 +8,25 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yumedayo.hanabidex"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b6ffa5f5-ce75-49bc-843b-6e987e3459c9"
+      }
+    },
+    "owner": "yumedayo",
+    "android": {
+      "package": "com.yumedayo.hanabidex"
     }
   }
 }
